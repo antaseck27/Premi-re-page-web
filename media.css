@@ -1,0 +1,64 @@
+@media screen and (max-width:768px){
+    *{
+       
+    }
+    .imo{
+       display: none;
+    }
+    .navbar{
+        font-size: 5px;
+        padding: 0px;
+
+    }
+    .para{
+        margin-top: 10px;
+    }
+    .nav1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        right: 0px;
+    }
+    .puman h1{
+        text-align: center;
+        font-size: 15px;
+    }
+    .puman p{
+        font-size: 10px;
+    }
+    .puman{
+        height: 300px;
+    }
+    button{
+        width: 70%;
+        height: 40px;
+        background-color: transparent;
+        color: white;
+        border: solid 1px white;
+    }
+    .grid{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: 380px;
+    width: 70%;
+    height: 100%;
+    }
+    .une{
+        grid-column: 1/2;
+        grid-row: 1/2;
+        background-image: url("photo-4.avif");
+        background-size: cover;
+       
+       
+       
+    }
+    
+    .deux{
+        grid-column: 1/2;
+        grid-row: 2/3;
+        background-image: url("photo-6.avif");
+        background-size: cover;
+       
+    }
+}
