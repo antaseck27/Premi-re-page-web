@@ -4,6 +4,9 @@
    box-sizing: border-box;
   
 }
+body{
+   
+}
 .imo{
     position: relative;
     top: 90px;
@@ -59,7 +62,7 @@
     background-image: url("photo-2.avif");
     background-size: cover;
     background-color: black;
-    height: 400px;
+    height: 500px;
     color: white;
     padding: 110px;
 }
@@ -114,6 +117,8 @@ button{
 .deux{
     background-image: url("photo-6.avif");
     background-size: cover;
+    color: white;
+    
   
 }
 .fram{
@@ -162,4 +167,13 @@ legend{
     font-size: 40px;
     color: white;
    
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+h6{
+    text-align: center;
+   position: relative;
+   top: 50px;
 }
